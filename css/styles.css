@@ -1,0 +1,126 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1000;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.profile-image { 
+    width: 100px;
+    height: 100px;
+    margin-right: 10px; /* Puedes ajustar este valor según necesites */
+    border-radius: 50%; /* Esto hace que la imagen sea redonda */
+}
+
+.seccion {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    opacity: 0; /* Inicialmente, las secciones están ocultas */
+    animation: fadeIn 1s forwards; /* Animación de desvanecimiento */
+}
+
+.proyecto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.proyecto h3 {
+    margin-top: 0;
+}
+
+.proyecto a {
+    color: rgb(146, 146, 158);
+    text-decoration: none;
+}
+
+.separador {
+    height: 20px;
+    background-color: #f0f0f0;
+}
+
+footer  {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.borde {
+    border: 3px solid rgb(177, 187, 189);
+    background-color: rgb(168, 178, 178);
+}
+
+.boton-info {
+    background-color: #333;
+    border: #333; 
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.social-links a {
+    color: #060606;
+    font-size: 24px;
+    margin-right: 10px;
+
+    
+}
+
+.social-links a:hover {
+    color: #485460;
+}
+
+.boton-info:hover {
+    background-color: #444; /* Cambia el color de fondo del botón al hacer hover */
+    border-color: #444; /* Cambia el color del borde del botón al hacer hover */
+}
+
+.btn:hover {
+    background-color: #ccc; /* Cambia el color de fondo de todos los botones al hacer hover */
+}
+
+
