@@ -33,6 +33,8 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
+
+
 .profile-image { 
     width: 100px;
     height: 100px;
@@ -124,3 +126,16 @@ footer  {
 }
 
 
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-spacer {
+    display: none;
+    height: 0;
+  }
+
+  .skills i {
+    font-size: 2em;  /* Ajusta a tu preferencia */
+}
