@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.4.0/devicon.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" type="image/jpg" href="link">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-...TuCódigoDeIntegridadAquí..." crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
@@ -20,12 +22,12 @@
                 </div>
                 <div class="col">
                     <h1>Brian La Delfa</h1>
-                    <p class="lead">¡Apasionado por la programación y la ingeniería en computación!</p>
+                    <p class="lead">¡Apasionado por la programación ¡Apasionado por la programación¡Apasionado por la programación!</p>
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container">
-                    <a class="navbar-brand" href="#">Mi Portafolio</a>
+                    <a class="navbar-brand" href="#main-header">Mi Portafolio</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -35,11 +37,12 @@
                             <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
                             <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
                             <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#footer">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#footer">Contacto y CV</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <div class="navbar-spacer"></div>
         </div>
     </header>
 
@@ -47,14 +50,14 @@
         <div class="container">
             <h2 class="text-center mb-4"><u>Proyectos</u></h2>
             <div class="card-deck">
-                <div class="card fade-in">
-                    <div class="card-body">
+                <div class="card fade-in" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-body" >
                         <h3 class="card-title">Proyecto 1</h3>
                         <p class="card-text">Descripción del proyecto 1.</p>
                         <a href="#" class="btn btn-primary boton-info">Ver más <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="card fade-in">
+                <div class="card fade-in" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <h3 class="card-title">Proyecto 2</h3>
                         <p class="card-text">Descripción del proyecto 2.</p>
@@ -64,13 +67,14 @@
             </div>
         </div>
     </section>
-
     <section id="habilidades" class="seccion py-5 borde">
         <div class="container">
             <h2 class="text-center mb-4"><u>Habilidades</u></h2>
             <!-- Contenido de habilidades -->
-            <p>Me especializo en <strong>desarrollo web</strong> utilizando tecnologías como HTML, CSS, JavaScript y frameworks como Bootstrap. También tengo experiencia en <strong>programación en Python</strong> y <strong>desarrollo de aplicaciones móviles</strong> con React Native.</p>
+            <p>Me especializo en <strong>desarrollo web</strong> utilizando tecnologías como HTML, CSS, JavaScript y frameworks como Bootstrap. También tengo experiencia en <strong>programación en Java</strong> y <strong>desarrollo de aplicaciones</strong> con React .</p>
+            <p>Me especializo en <strong>desarrollo web</strong> utilizando tecnologías como HTML, CSS, JavaScript y frameworks como Bootstrap. También tengo experiencia en <strong>programación en Java</strong> y <strong>desarrollo de aplicaciones</strong> con React .</p>
         </div>
+        
     </section>
 
     <section id="sobre-mi" class="seccion py-5 borde">
@@ -99,6 +103,10 @@
                         <a href="#" target="_blank"><i class="fab fa-instagram "></i></a>
                         <a href="https://www.linkedin.com/in/brian-la-delfa-349a8a230/" target="_blank" class="fab"><i class="fab fa-linkedin"></i> </a>
                     </div>
+                    <!-- Agrega el enlace para descargar el currículum -->
+                    <div class="text-center">
+                        <a href="https://drive.google.com/file/d/1Ed4yb2Yj9e22-pWqw_UK-YxisndkQYGM/view?usp=drive_link" target="_blank" class="btn btn-primary boton-info">Descargar Currículum</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -108,5 +116,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-</body>
-</html>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
