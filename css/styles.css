@@ -136,6 +136,28 @@ footer  {
     height: 0;
   }
 
-  .skills i {
-    font-size: 2em;  /* Ajusta a tu preferencia */
+
+
+.career-bar .progress-bar {
+    background-color: #80a8ff;
 }
+.career-bar {
+    height: 16px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+figure {
+    text-align: center;
+    margin: auto;
+  }

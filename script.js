@@ -37,26 +37,3 @@ document.addEventListener('DOMContentLoaded', function() {
     AOS.init();
 });
 
-// Agrega efecto de desplazamiento fijo al hacer scroll
-window.addEventListener('load', function() {
-    var header = document.getElementById('main-header');
-    var navbar = document.querySelector('.navbar');
-    var spacer = document.querySelector('.navbar-spacer');  // obtén el espaciador
-    
-    var navbarHeight = navbar.offsetHeight;
-
-    function handleScroll() {
-        if (window.scrollY > navbarHeight) {
-            navbar.classList.add('fixed-top');
-            spacer.style.display = 'block';  // muestra el espaciador
-            spacer.style.height = navbarHeight + 'px';  // dale la altura de la navbar
-        } else {
-            navbar.classList.remove('fixed-top');
-            spacer.style.display = 'none';  // oculta el espaciador
-            spacer.style.height = '0';  // borra su altura
-        }
-    }
-    // Llamar a handleScroll cuando se desplace y cuando se cargue la página
-    window.addEventListener('scroll', handleScroll);
-    handleScroll();
-});
