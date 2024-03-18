@@ -12,7 +12,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('load', function() {
     var header = document.getElementById('main-header');
     var navbar = document.querySelector('.navbar');
-    var spacer = document.querySelector('.navbar-spacer');  // obtén el espaciador
+    var spacer = document.querySelector('.navbar-spacer');  
     
     var navbarHeight = navbar.offsetHeight;
 
@@ -20,7 +20,7 @@ window.addEventListener('load', function() {
         if (window.scrollY > navbarHeight) {
             navbar.classList.add('fixed-top');
             spacer.style.display = 'block';  // muestra el espaciador
-            spacer.style.height = navbarHeight + 'px';  // dale la altura de la navbar
+            spacer.style.height = navbarHeight + 'px';  // 
         } else {
             navbar.classList.remove('fixed-top');
             spacer.style.display = 'none';  // oculta el espaciador

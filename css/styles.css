@@ -38,16 +38,16 @@ nav ul li a {
 .profile-image { 
     width: 100px;
     height: 100px;
-    margin-right: 10px; /* Puedes ajustar este valor según necesites */
-    border-radius: 50%; /* Esto hace que la imagen sea redonda */
+    margin-right: 10px; 
+    border-radius: 50%; 
 }
 
 .seccion {
     padding: 20px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    opacity: 0; /* Inicialmente, las secciones están ocultas */
-    animation: fadeIn 1s forwards; /* Animación de desvanecimiento */
+    opacity: 0; 
+    animation: fadeIn 1s forwards; 
 }
 
 .proyecto {
@@ -117,12 +117,12 @@ footer  {
 }
 
 .boton-info:hover {
-    background-color: #444; /* Cambia el color de fondo del botón al hacer hover */
-    border-color: #444; /* Cambia el color del borde del botón al hacer hover */
+    background-color: #444; 
+    border-color: #444; 
 }
 
 .btn:hover {
-    background-color: #ccc; /* Cambia el color de fondo de todos los botones al hacer hover */
+    background-color: #ccc; 
 }
 
 
@@ -135,8 +135,6 @@ footer  {
     display: none;
     height: 0;
   }
-
-
 
 .career-bar .progress-bar {
     background-color: #80a8ff;
